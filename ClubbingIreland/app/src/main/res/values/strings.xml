@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClubbingIreland</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="county_array">
+        <item>Longford</item>
+        <item>Offaly</item>
+        <item>Roscommon</item>
+        <item>Westmeath</item>
+    </string-array>
+    <string-array name="longford_array">
+        <item>Longford Town</item>
+        <item>Edgesworthtown</item>
+        <item>Ballymahon</item>
+    </string-array>
+    <string-array name="offaly_array">
+        <item>Tullamore</item>
+        <item>Birr</item>
+        <item>Edenderry</item>
+    </string-array>
+    <string-array name="roscommon_array">
+        <item>Roscommon</item>
+        <item>Boyle</item>
+        <item>Strokestown</item>
+    </string-array>
+    <string-array name="westmeath_array">
+        <item>Athlone</item>
+        <item>Mullingar</item>
+        <item>Moate</item>
+    </string-array>
+    <string-array name="genre_array">
+        <item>Rock</item>
+        <item>Traditional</item>
+        <item>Dance</item>
+        <item>Country</item>
+    </string-array>
+
+    <string name="title_activity_location__choose">Location_Choose</string>
+    <string name="title_activity_help">Help</string>
+    <string name="Icon">Icon</string>
+    <string name="location">Choose a County to see whats going on in your area!!</string>
+    <string name="Choosetown">Choose a Town</string>
+    <string name="Choosegenre">Choose a Genre</string>
+    <string name="submit">Submit</string>
+    <string name="Help">Help</string>
+    <string name="About">About</string>
+    <string name="About2">This android application was created by Richard O Shaughnessy and Brendan Kenny for the Systems Implementation module in the Higher Dipolma Class in Athlone Institute of Technology. It was submitted in April 29th 2015</string>
+    <string name="Instructions">Thank you for downloading the Clubbing Ireland Android application. If you wish to find out what is going on near you, then you have come to the right place! Just press Enter. The following screen will allow you to choose a county and from there we will show you a list of the venues in the chosen county!!! If you have any problems or suggestions please email us at clubbingireland@gmail.com. Thanks!!!</string>
+    <string name="title_activity_venue_list">VenueList</string>
+    <string name="title_activity_about">about</string>
+    <string name="Website">Visit our Website</string>
+    <string name="Facebook">Our Facebook Page</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_contact_us">Contact</string>
+
+</resources>

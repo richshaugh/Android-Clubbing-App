@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/back"
+    android:icon="@drawable/logo"
+    android:id="@+id/main">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/clubbing"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/enterbtn"
+        android:textColor="@color/white"
+        android:layout_below="@+id/imageView"
+
+        android:layout_alignLeft="@+id/helpbtn"
+        android:layout_alignStart="@+id/helpbtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/helpbtn"
+        android:layout_below="@+id/enterbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/aboutbtn"
+        android:layout_below="@+id/helpbtn"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textColor="@color/white"
+        android:id="@+id/contactbutton"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/aboutbtn"
+        android:layout_alignRight="@+id/aboutbtn"
+        android:layout_alignEnd="@+id/aboutbtn"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
